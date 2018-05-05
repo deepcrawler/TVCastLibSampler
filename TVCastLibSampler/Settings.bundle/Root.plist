@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Versions</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>SDK</string>
+			<key>Key</key>
+			<string>sdkVersion</string>
+			<key>DefaultValue</key>
+			<string>Unknown</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Sampler</string>
+			<key>Key</key>
+			<string>samplerVersion</string>
+			<key>DefaultValue</key>
+			<string>Unknown</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Git Info</string>
+			<key>Key</key>
+			<string>gitInfo</string>
+			<key>DefaultValue</key>
+			<string>Unknown</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>AirPlay</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>AirPlay Mode</string>
+			<key>Key</key>
+			<string>airPlayServiceMode</string>
+			<key>DefaultValue</key>
+			<integer>0</integer>
+			<key>Titles</key>
+			<array>
+				<string>Web App</string>
+				<string>Media</string>
+			</array>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Apps</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>DIAL App Name</string>
+			<key>Key</key>
+			<string>dialAppName</string>
+			<key>DefaultValue</key>
+			<string>Levak</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Netcast App Store Deep Link Target</string>
+			<key>Key</key>
+			<string>netcastAppId</string>
+			<key>DefaultValue</key>
+			<string>125071</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Roku App Store Deep Link Target</string>
+			<key>Key</key>
+			<string>rokuAppId</string>
+			<key>DefaultValue</key>
+			<string>26882</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>webOS App Store Deep Link Target</string>
+			<key>Key</key>
+			<string>webOSAppId</string>
+			<key>DefaultValue</key>
+			<string>redbox</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Web App Ids</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>AirPlay</string>
+			<key>Key</key>
+			<string>airPlayWebAppId</string>
+			<key>DefaultValue</key>
+			<string>http://google.com</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Chromecast</string>
+			<key>Key</key>
+			<string>castWebAppId</string>
+			<key>DefaultValue</key>
+			<string>2E6531DC</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>webOS</string>
+			<key>Key</key>
+			<string>webOSWebAppId</string>
+			<key>DefaultValue</key>
+			<string>WebAppTester</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Sample Audio File</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Audio Title</string>
+			<key>Key</key>
+			<string>audioTitle</string>
+			<key>DefaultValue</key>
+			<string>Baran</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Audio Description</string>
+			<key>Key</key>
+			<string>audioDescription</string>
+			<key>DefaultValue</key>
+			<string>Audio Desc</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Audio URL</string>
+			<key>Key</key>
+			<string>audioPath</string>
+			<key>DefaultValue</key>
+			<string>http://dl.irmp3.ir/data/song/Saeed_Asayesh-Bebar_Baroon-(WWW.IRMP3.IR).mp3</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Audio Thumbnail URL</string>
+			<key>Key</key>
+			<string>audioThumbPath</string>
+			<key>DefaultValue</key>
+			<string>http://images.all-free-download.com/images/graphiclarge/beautiful_natural_scenery_04_hd_pictures_166229.jpg</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Audio Mime-type</string>
+			<key>Key</key>
+			<string>audioMimeType</string>
+			<key>DefaultValue</key>
+			<string>audio/mp3</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Sample Image File</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Image Title</string>
+			<key>Key</key>
+			<string>imageTitle</string>
+			<key>DefaultValue</key>
+			<string>Image Title</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Image Description</string>
+			<key>Key</key>
+			<string>imageDescription</string>
+			<key>DefaultValue</key>
+			<string>Image Desc</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Image URL</string>
+			<key>Key</key>
+			<string>imagePath</string>
+			<key>DefaultValue</key>
+			<string>http://wallpaper-gallery.net/images/hd-nature-wallpapers-for-desktop-free-download/hd-nature-wallpapers-for-desktop-free-download-27.jpg</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Image Thumbnail URL</string>
+			<key>Key</key>
+			<string>imageThumbPath</string>
+			<key>DefaultValue</key>
+			<string>http://images.all-free-download.com/images/graphiclarge/beautiful_natural_scenery_04_hd_pictures_166229.jpg</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Image Mime-type</string>
+			<key>Key</key>
+			<string>imageMimeType</string>
+			<key>DefaultValue</key>
+			<string>image/jpeg</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Sample Video File</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Video Title</string>
+			<key>Key</key>
+			<string>videoTitle</string>
+			<key>DefaultValue</key>
+			<string>Video Title</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Video Description</string>
+			<key>Key</key>
+			<string>videoDescription</string>
+			<key>DefaultValue</key>
+			<string>Video Desc</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Video URL</string>
+			<key>Key</key>
+			<string>videoPath</string>
+			<key>DefaultValue</key>
+			<string>http://184.164.147.254/mp4/StarWars360.mp4</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Video Thumbnail URL</string>
+			<key>Key</key>
+			<string>videoThumbPath</string>
+			<key>DefaultValue</key>
+			<string>http://video-tv-cast.com/wp-content/uploads/2015/02/icon.png</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Video Mime-type</string>
+			<key>Key</key>
+			<string>videoMimeType</string>
+			<key>DefaultValue</key>
+			<string>video/mp4</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Subtitles Enabled</string>
+			<key>Key</key>
+			<string>subtitlesEnabled</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Subtitles URL</string>
+			<key>Key</key>
+			<string>subtitlesURL</string>
+			<key>DefaultValue</key>
+			<string>http://en.srt</string>
+			<key>KeyboardType</key>
+			<string>URL</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Subtitles MIME-Type</string>
+			<key>Key</key>
+			<string>subtitlesMimeType</string>
+			<key>DefaultValue</key>
+			<string>text/srt</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Subtitles Language</string>
+			<key>Key</key>
+			<string>subtitlesLanguage</string>
+			<key>DefaultValue</key>
+			<string>en</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Subtitles Label</string>
+			<key>Key</key>
+			<string>subtitlesLabel</string>
+			<key>DefaultValue</key>
+			<string>English Subtitles</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Sample Playlist File</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Playlist Title</string>
+			<key>Key</key>
+			<string>playlistTitle</string>
+			<key>DefaultValue</key>
+			<string>Playlist</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Playlist Description</string>
+			<key>Key</key>
+			<string>playlistDescription</string>
+			<key>DefaultValue</key>
+			<string>Description</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Playlist URL</string>
+			<key>Key</key>
+			<string>playlistPath</string>
+			<key>DefaultValue</key>
+			<string>http://aljazeera-eng-apple-live.adaptive.level3.net/apple/aljazeera/english/appleman.m3u8</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Playlist Thumbnail URL</string>
+			<key>Key</key>
+			<string>playlistThumbPath</string>
+			<key>DefaultValue</key>
+			<string>http://images.all-free-download.com/images/graphiclarge/beautiful_natural_scenery_04_hd_pictures_166229.jpg</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Playlist Mime-type</string>
+			<key>Key</key>
+			<string>playlistMimeType</string>
+			<key>DefaultValue</key>
+			<string>audio/x-mpegurl</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Jump to track</string>
+			<key>Key</key>
+			<string>playListJumpToTrackNumber</string>
+			<key>DefaultValue</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

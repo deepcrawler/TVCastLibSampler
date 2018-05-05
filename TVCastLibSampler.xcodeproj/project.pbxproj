@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8483843E1EF3EE0400973546 /* AmazonFling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483843D1EF3EE0400973546 /* AmazonFling.framework */; };
+		848384431EF3EE4D00973546 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848384421EF3EE4D00973546 /* Bolts.framework */; };
+		848384451EF3EE6900973546 /* GoogleCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848384441EF3EE6900973546 /* GoogleCast.framework */; };
+		848384471EF3EE7C00973546 /* libTVCastLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 848384461EF3EE7C00973546 /* libTVCastLib.a */; };
+		848384581EF3F20D00973546 /* AppsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384491EF3F20D00973546 /* AppsViewController.m */; };
+		848384591EF3F20D00973546 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483844B1EF3F20D00973546 /* BaseViewController.m */; };
+		8483845A1EF3F20D00973546 /* ControlTouchpadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483844D1EF3F20D00973546 /* ControlTouchpadView.m */; };
+		8483845B1EF3F20D00973546 /* ControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8483844F1EF3F20D00973546 /* ControlViewController.m */; };
+		8483845C1EF3F20D00973546 /* MediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384511EF3F20D00973546 /* MediaViewController.m */; };
+		8483845D1EF3F20D00973546 /* SystemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384531EF3F20D00973546 /* SystemViewController.m */; };
+		8483845E1EF3F20D00973546 /* TVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384551EF3F20D00973546 /* TVViewController.m */; };
+		8483845F1EF3F20D00973546 /* WebAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384571EF3F20D00973546 /* WebAppViewController.m */; };
+		848384641EF3F26100973546 /* SamplerNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384611EF3F26100973546 /* SamplerNavigationViewController.m */; };
+		848384651EF3F26100973546 /* SamplerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384631EF3F26100973546 /* SamplerViewController.m */; };
+		848384681EF3F2B800973546 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384671EF3F2B800973546 /* AppDelegate.m */; };
+		8483846A1EF3F2D000973546 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 848384691EF3F2D000973546 /* main.m */; };
+		8483846C1EF3F30700973546 /* TVCastLib in Resources */ = {isa = PBXBuildFile; fileRef = 8483846B1EF3F30700973546 /* TVCastLib */; };
+		848384721EF3F35600973546 /* icon_17114.png in Resources */ = {isa = PBXBuildFile; fileRef = 8483846F1EF3F35600973546 /* icon_17114.png */; };
+		848384731EF3F35600973546 /* icon_17114@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848384701EF3F35600973546 /* icon_17114@2x.png */; };
+		848384781EF3F36D00973546 /* icon_3330.png in Resources */ = {isa = PBXBuildFile; fileRef = 848384751EF3F36D00973546 /* icon_3330.png */; };
+		848384791EF3F36D00973546 /* icon_3330@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848384761EF3F36D00973546 /* icon_3330@2x.png */; };
+		8483847E1EF3F38900973546 /* icon_15307.png in Resources */ = {isa = PBXBuildFile; fileRef = 8483847B1EF3F38900973546 /* icon_15307.png */; };
+		8483847F1EF3F38900973546 /* icon_15307@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8483847C1EF3F38900973546 /* icon_15307@2x.png */; };
+		848384831EF3F3B000973546 /* icon_17183.png in Resources */ = {isa = PBXBuildFile; fileRef = 848384811EF3F3B000973546 /* icon_17183.png */; };
+		848384841EF3F3B000973546 /* icon_17183@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848384821EF3F3B000973546 /* icon_17183@2x.png */; };
+		8483848A1EF3F3D900973546 /* icon_15111.png in Resources */ = {isa = PBXBuildFile; fileRef = 848384871EF3F3D900973546 /* icon_15111.png */; };
+		8483848B1EF3F3D900973546 /* icon_15111@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 848384881EF3F3D900973546 /* icon_15111@2x.png */; };
+		848384901EF3F3F000973546 /* icon_12676.png in Resources */ = {isa = PBXBuildFile; fileRef = 8483848D1EF3F3F000973546 /* icon_12676.png */; };
+		848384911EF3F3F000973546 /* icon_12676@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8483848E1EF3F3F000973546 /* icon_12676@2x.png */; };
+		848384951EF3F43700973546 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 848384931EF3F43700973546 /* InfoPlist.strings */; };
+		848384991EF3F46F00973546 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 848384981EF3F46F00973546 /* Settings.bundle */; };
+		8483849B1EF3F49200973546 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8483849A1EF3F49200973546 /* MainStoryboard.storyboard */; };
+		8483849D1EF3F4CB00973546 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8483849C1EF3F4CB00973546 /* Images.xcassets */; };
+		848384A11EF3F56300973546 /* TVCastLibSampler-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 848384A01EF3F56300973546 /* TVCastLibSampler-Info.plist */; };
+		84FE26441EF3B17E00A04568 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413B7231EF275230091E1AC /* libicucore.tbd */; };
+		84FE26451EF3B18800A04568 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413B7211EF275110091E1AC /* libz.tbd */; };
+		84FE26471EF3B19400A04568 /* MediaAccessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE26461EF3B19400A04568 /* MediaAccessibility.framework */; };
+		84FE26491EF3B1AB00A04568 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE26481EF3B1AB00A04568 /* SystemConfiguration.framework */; };
+		84FE264B1EF3B1C100A04568 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE264A1EF3B1C100A04568 /* AVFoundation.framework */; };
+		84FE264D1EF3B1DB00A04568 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE264C1EF3B1DB00A04568 /* MobileCoreServices.framework */; };
+		84FE264F1EF3B1F300A04568 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FE264E1EF3B1F300A04568 /* CoreFoundation.framework */; };
+		84FE26501EF3B20500A04568 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8413B7341EF285F20091E1AC /* libc++.tbd */; };
+		EA7E00B0184402B20089FA62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7E00AF184402B20089FA62 /* Foundation.framework */; };
+		EA7E00B2184402B20089FA62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7E00B1184402B20089FA62 /* CoreGraphics.framework */; };
+		EA7E00B4184402B20089FA62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA7E00B3184402B20089FA62 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8413B7211EF275110091E1AC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8413B7231EF275230091E1AC /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		8413B7341EF285F20091E1AC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8483843D1EF3EE0400973546 /* AmazonFling.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AmazonFling.framework; path = TVCastLibSampler/TVCastLib/AmazonFling.framework; sourceTree = "<group>"; };
+		848384421EF3EE4D00973546 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = TVCastLibSampler/TVCastLib/third_party_framework/Bolts.framework; sourceTree = "<group>"; };
+		848384441EF3EE6900973546 /* GoogleCast.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleCast.framework; path = "TVCastLibSampler/TVCastLib/GoogleCastSDK-2.7.1-Release/GoogleCast.framework"; sourceTree = "<group>"; };
+		848384461EF3EE7C00973546 /* libTVCastLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTVCastLib.a; path = TVCastLibSampler/TVCastLib/libTVCastLib.a; sourceTree = "<group>"; };
+		848384481EF3F20D00973546 /* AppsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppsViewController.h; path = TVCastLibSampler/Content/AppsViewController.h; sourceTree = SOURCE_ROOT; };
+		848384491EF3F20D00973546 /* AppsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppsViewController.m; path = TVCastLibSampler/Content/AppsViewController.m; sourceTree = SOURCE_ROOT; };
+		8483844A1EF3F20D00973546 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = TVCastLibSampler/Content/BaseViewController.h; sourceTree = SOURCE_ROOT; };
+		8483844B1EF3F20D00973546 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = TVCastLibSampler/Content/BaseViewController.m; sourceTree = SOURCE_ROOT; };
+		8483844C1EF3F20D00973546 /* ControlTouchpadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlTouchpadView.h; path = TVCastLibSampler/Content/ControlTouchpadView.h; sourceTree = SOURCE_ROOT; };
+		8483844D1EF3F20D00973546 /* ControlTouchpadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControlTouchpadView.m; path = TVCastLibSampler/Content/ControlTouchpadView.m; sourceTree = SOURCE_ROOT; };
+		8483844E1EF3F20D00973546 /* ControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ControlViewController.h; path = TVCastLibSampler/Content/ControlViewController.h; sourceTree = SOURCE_ROOT; };
+		8483844F1EF3F20D00973546 /* ControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ControlViewController.m; path = TVCastLibSampler/Content/ControlViewController.m; sourceTree = SOURCE_ROOT; };
+		848384501EF3F20D00973546 /* MediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MediaViewController.h; path = TVCastLibSampler/Content/MediaViewController.h; sourceTree = SOURCE_ROOT; };
+		848384511EF3F20D00973546 /* MediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MediaViewController.m; path = TVCastLibSampler/Content/MediaViewController.m; sourceTree = SOURCE_ROOT; };
+		848384521EF3F20D00973546 /* SystemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SystemViewController.h; path = TVCastLibSampler/Content/SystemViewController.h; sourceTree = SOURCE_ROOT; };
+		848384531EF3F20D00973546 /* SystemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SystemViewController.m; path = TVCastLibSampler/Content/SystemViewController.m; sourceTree = SOURCE_ROOT; };
+		848384541EF3F20D00973546 /* TVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TVViewController.h; path = TVCastLibSampler/Content/TVViewController.h; sourceTree = SOURCE_ROOT; };
+		848384551EF3F20D00973546 /* TVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TVViewController.m; path = TVCastLibSampler/Content/TVViewController.m; sourceTree = SOURCE_ROOT; };
+		848384561EF3F20D00973546 /* WebAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebAppViewController.h; path = TVCastLibSampler/Content/WebAppViewController.h; sourceTree = SOURCE_ROOT; };
+		848384571EF3F20D00973546 /* WebAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebAppViewController.m; path = TVCastLibSampler/Content/WebAppViewController.m; sourceTree = SOURCE_ROOT; };
+		848384601EF3F26100973546 /* SamplerNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SamplerNavigationViewController.h; path = TVCastLibSampler/ControlFlow/SamplerNavigationViewController.h; sourceTree = SOURCE_ROOT; };
+		848384611EF3F26100973546 /* SamplerNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SamplerNavigationViewController.m; path = TVCastLibSampler/ControlFlow/SamplerNavigationViewController.m; sourceTree = SOURCE_ROOT; };
+		848384621EF3F26100973546 /* SamplerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SamplerViewController.h; path = TVCastLibSampler/ControlFlow/SamplerViewController.h; sourceTree = SOURCE_ROOT; };
+		848384631EF3F26100973546 /* SamplerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SamplerViewController.m; path = TVCastLibSampler/ControlFlow/SamplerViewController.m; sourceTree = SOURCE_ROOT; };
+		848384661EF3F2B800973546 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TVCastLibSampler/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		848384671EF3F2B800973546 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TVCastLibSampler/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		848384691EF3F2D000973546 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TVCastLibSampler/main.m; sourceTree = SOURCE_ROOT; };
+		8483846B1EF3F30700973546 /* TVCastLib */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TVCastLib; path = TVCastLibSampler/TVCastLib; sourceTree = SOURCE_ROOT; };
+		8483846F1EF3F35600973546 /* icon_17114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_17114.png; path = TVCastLibSampler/Resources/apps/icon_17114.png; sourceTree = SOURCE_ROOT; };
+		848384701EF3F35600973546 /* icon_17114@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_17114@2x.png"; path = "TVCastLibSampler/Resources/apps/icon_17114@2x.png"; sourceTree = SOURCE_ROOT; };
+		848384751EF3F36D00973546 /* icon_3330.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_3330.png; path = TVCastLibSampler/Resources/control/icon_3330.png; sourceTree = SOURCE_ROOT; };
+		848384761EF3F36D00973546 /* icon_3330@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_3330@2x.png"; path = "TVCastLibSampler/Resources/control/icon_3330@2x.png"; sourceTree = SOURCE_ROOT; };
+		8483847B1EF3F38900973546 /* icon_15307.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_15307.png; path = TVCastLibSampler/Resources/media/icon_15307.png; sourceTree = SOURCE_ROOT; };
+		8483847C1EF3F38900973546 /* icon_15307@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_15307@2x.png"; path = "TVCastLibSampler/Resources/media/icon_15307@2x.png"; sourceTree = SOURCE_ROOT; };
+		848384811EF3F3B000973546 /* icon_17183.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_17183.png; path = TVCastLibSampler/Resources/system/icon_17183.png; sourceTree = SOURCE_ROOT; };
+		848384821EF3F3B000973546 /* icon_17183@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_17183@2x.png"; path = "TVCastLibSampler/Resources/system/icon_17183@2x.png"; sourceTree = SOURCE_ROOT; };
+		848384871EF3F3D900973546 /* icon_15111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_15111.png; path = TVCastLibSampler/Resources/tv/icon_15111.png; sourceTree = SOURCE_ROOT; };
+		848384881EF3F3D900973546 /* icon_15111@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_15111@2x.png"; path = "TVCastLibSampler/Resources/tv/icon_15111@2x.png"; sourceTree = SOURCE_ROOT; };
+		8483848D1EF3F3F000973546 /* icon_12676.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_12676.png; path = TVCastLibSampler/Resources/webapps/icon_12676.png; sourceTree = SOURCE_ROOT; };
+		8483848E1EF3F3F000973546 /* icon_12676@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_12676@2x.png"; path = "TVCastLibSampler/Resources/webapps/icon_12676@2x.png"; sourceTree = SOURCE_ROOT; };
+		848384941EF3F43700973546 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = TVCastLibSampler/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		848384981EF3F46F00973546 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = TVCastLibSampler/Settings.bundle; sourceTree = SOURCE_ROOT; };
+		8483849A1EF3F49200973546 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = TVCastLibSampler/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		8483849C1EF3F4CB00973546 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TVCastLibSampler/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		848384A01EF3F56300973546 /* TVCastLibSampler-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "TVCastLibSampler-Info.plist"; path = "TVCastLibSampler/TVCastLibSampler-Info.plist"; sourceTree = SOURCE_ROOT; };
+		84FE26461EF3B19400A04568 /* MediaAccessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaAccessibility.framework; path = System/Library/Frameworks/MediaAccessibility.framework; sourceTree = SDKROOT; };
+		84FE26481EF3B1AB00A04568 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		84FE264A1EF3B1C100A04568 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		84FE264C1EF3B1DB00A04568 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		84FE264E1EF3B1F300A04568 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EA7E00AC184402B20089FA62 /* TVCastLibSampler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVCastLibSampler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7E00AF184402B20089FA62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA7E00B1184402B20089FA62 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA7E00B3184402B20089FA62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA9E48A7186DFCFD002DE134 /* TVCastLibSampler-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TVCastLibSampler-Prefix.pch"; path = "TVCastLibSampler/TVCastLibSampler-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA7E00A9184402B20089FA62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848384471EF3EE7C00973546 /* libTVCastLib.a in Frameworks */,
+				848384451EF3EE6900973546 /* GoogleCast.framework in Frameworks */,
+				848384431EF3EE4D00973546 /* Bolts.framework in Frameworks */,
+				8483843E1EF3EE0400973546 /* AmazonFling.framework in Frameworks */,
+				84FE26501EF3B20500A04568 /* libc++.tbd in Frameworks */,
+				84FE264F1EF3B1F300A04568 /* CoreFoundation.framework in Frameworks */,
+				84FE264D1EF3B1DB00A04568 /* MobileCoreServices.framework in Frameworks */,
+				84FE264B1EF3B1C100A04568 /* AVFoundation.framework in Frameworks */,
+				84FE26491EF3B1AB00A04568 /* SystemConfiguration.framework in Frameworks */,
+				84FE26471EF3B19400A04568 /* MediaAccessibility.framework in Frameworks */,
+				84FE26451EF3B18800A04568 /* libz.tbd in Frameworks */,
+				84FE26441EF3B17E00A04568 /* libicucore.tbd in Frameworks */,
+				EA7E00B2184402B20089FA62 /* CoreGraphics.framework in Frameworks */,
+				EA7E00B4184402B20089FA62 /* UIKit.framework in Frameworks */,
+				EA7E00B0184402B20089FA62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA09EFA71875E82A008E6839 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				848384481EF3F20D00973546 /* AppsViewController.h */,
+				848384491EF3F20D00973546 /* AppsViewController.m */,
+				8483844A1EF3F20D00973546 /* BaseViewController.h */,
+				8483844B1EF3F20D00973546 /* BaseViewController.m */,
+				8483844C1EF3F20D00973546 /* ControlTouchpadView.h */,
+				8483844D1EF3F20D00973546 /* ControlTouchpadView.m */,
+				8483844E1EF3F20D00973546 /* ControlViewController.h */,
+				8483844F1EF3F20D00973546 /* ControlViewController.m */,
+				848384501EF3F20D00973546 /* MediaViewController.h */,
+				848384511EF3F20D00973546 /* MediaViewController.m */,
+				848384521EF3F20D00973546 /* SystemViewController.h */,
+				848384531EF3F20D00973546 /* SystemViewController.m */,
+				848384541EF3F20D00973546 /* TVViewController.h */,
+				848384551EF3F20D00973546 /* TVViewController.m */,
+				848384561EF3F20D00973546 /* WebAppViewController.h */,
+				848384571EF3F20D00973546 /* WebAppViewController.m */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		EA09EFB61875E82A008E6839 /* ControlFlow */ = {
+			isa = PBXGroup;
+			children = (
+				848384601EF3F26100973546 /* SamplerNavigationViewController.h */,
+				848384611EF3F26100973546 /* SamplerNavigationViewController.m */,
+				848384621EF3F26100973546 /* SamplerViewController.h */,
+				848384631EF3F26100973546 /* SamplerViewController.m */,
+			);
+			path = ControlFlow;
+			sourceTree = "<group>";
+		};
+		EA09EFBD1875E82A008E6839 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA0F2D2518BEACCB003B44E1 /* apps */,
+				EA0F2D2918BEACCB003B44E1 /* control */,
+				EA0F2D2D18BEACCB003B44E1 /* media */,
+				EA0F2D3118BEACCB003B44E1 /* system */,
+				EA0F2D3518BEACCB003B44E1 /* tv */,
+				EA0F2D3918BEACCB003B44E1 /* webapps */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EA0F2D2518BEACCB003B44E1 /* apps */ = {
+			isa = PBXGroup;
+			children = (
+				8483846F1EF3F35600973546 /* icon_17114.png */,
+				848384701EF3F35600973546 /* icon_17114@2x.png */,
+			);
+			path = apps;
+			sourceTree = "<group>";
+		};
+		EA0F2D2918BEACCB003B44E1 /* control */ = {
+			isa = PBXGroup;
+			children = (
+				848384751EF3F36D00973546 /* icon_3330.png */,
+				848384761EF3F36D00973546 /* icon_3330@2x.png */,
+			);
+			path = control;
+			sourceTree = "<group>";
+		};
+		EA0F2D2D18BEACCB003B44E1 /* media */ = {
+			isa = PBXGroup;
+			children = (
+				8483847B1EF3F38900973546 /* icon_15307.png */,
+				8483847C1EF3F38900973546 /* icon_15307@2x.png */,
+			);
+			path = media;
+			sourceTree = "<group>";
+		};
+		EA0F2D3118BEACCB003B44E1 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				848384811EF3F3B000973546 /* icon_17183.png */,
+				848384821EF3F3B000973546 /* icon_17183@2x.png */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		EA0F2D3518BEACCB003B44E1 /* tv */ = {
+			isa = PBXGroup;
+			children = (
+				848384871EF3F3D900973546 /* icon_15111.png */,
+				848384881EF3F3D900973546 /* icon_15111@2x.png */,
+			);
+			path = tv;
+			sourceTree = "<group>";
+		};
+		EA0F2D3918BEACCB003B44E1 /* webapps */ = {
+			isa = PBXGroup;
+			children = (
+				8483848D1EF3F3F000973546 /* icon_12676.png */,
+				8483848E1EF3F3F000973546 /* icon_12676@2x.png */,
+			);
+			path = webapps;
+			sourceTree = "<group>";
+		};
+		EA7E00A3184402B20089FA62 = {
+			isa = PBXGroup;
+			children = (
+				EA9E4895186DFCFD002DE134 /* TVCastLibSampler */,
+				EA7E00AE184402B20089FA62 /* Frameworks */,
+				EA7E00AD184402B20089FA62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA7E00AD184402B20089FA62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA7E00AC184402B20089FA62 /* TVCastLibSampler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA7E00AE184402B20089FA62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848384461EF3EE7C00973546 /* libTVCastLib.a */,
+				848384441EF3EE6900973546 /* GoogleCast.framework */,
+				848384421EF3EE4D00973546 /* Bolts.framework */,
+				8483843D1EF3EE0400973546 /* AmazonFling.framework */,
+				84FE264E1EF3B1F300A04568 /* CoreFoundation.framework */,
+				84FE264C1EF3B1DB00A04568 /* MobileCoreServices.framework */,
+				84FE264A1EF3B1C100A04568 /* AVFoundation.framework */,
+				84FE26481EF3B1AB00A04568 /* SystemConfiguration.framework */,
+				84FE26461EF3B19400A04568 /* MediaAccessibility.framework */,
+				8413B7341EF285F20091E1AC /* libc++.tbd */,
+				8413B7231EF275230091E1AC /* libicucore.tbd */,
+				8413B7211EF275110091E1AC /* libz.tbd */,
+				EA7E00AF184402B20089FA62 /* Foundation.framework */,
+				EA7E00B1184402B20089FA62 /* CoreGraphics.framework */,
+				EA7E00B3184402B20089FA62 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA9E4895186DFCFD002DE134 /* TVCastLibSampler */ = {
+			isa = PBXGroup;
+			children = (
+				8483849C1EF3F4CB00973546 /* Images.xcassets */,
+				8483846B1EF3F30700973546 /* TVCastLib */,
+				EA09EFA71875E82A008E6839 /* Content */,
+				EA09EFB61875E82A008E6839 /* ControlFlow */,
+				EA9E48EB186DFD1D002DE134 /* Supporting Files */,
+			);
+			name = TVCastLibSampler;
+			path = ConnectSDKSampler;
+			sourceTree = "<group>";
+		};
+		EA9E48EB186DFD1D002DE134 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				848384A01EF3F56300973546 /* TVCastLibSampler-Info.plist */,
+				8483849A1EF3F49200973546 /* MainStoryboard.storyboard */,
+				848384981EF3F46F00973546 /* Settings.bundle */,
+				848384931EF3F43700973546 /* InfoPlist.strings */,
+				848384691EF3F2D000973546 /* main.m */,
+				848384661EF3F2B800973546 /* AppDelegate.h */,
+				848384671EF3F2B800973546 /* AppDelegate.m */,
+				EA09EFBD1875E82A008E6839 /* Resources */,
+				EA9E48A7186DFCFD002DE134 /* TVCastLibSampler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA7E00AB184402B20089FA62 /* TVCastLibSampler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA7E00DE184402B20089FA62 /* Build configuration list for PBXNativeTarget "TVCastLibSampler" */;
+			buildPhases = (
+				EA7E00A8184402B20089FA62 /* Sources */,
+				EA7E00AA184402B20089FA62 /* Resources */,
+				EA7E00A9184402B20089FA62 /* Frameworks */,
+				EA049F0118B29BB7000A1760 /* Bump version for Release builds */,
+				0F0347D21A83EEE600825C36 /* Save git info */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVCastLibSampler;
+			productName = ROAPTest;
+			productReference = EA7E00AC184402B20089FA62 /* TVCastLibSampler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA7E00A4184402B20089FA62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hamed Ghaderipour";
+				TargetAttributes = {
+					EA7E00AB184402B20089FA62 = {
+						DevelopmentTeam = 9PYS5F5SS5;
+					};
+				};
+			};
+			buildConfigurationList = EA7E00A7184402B20089FA62 /* Build configuration list for PBXProject "TVCastLibSampler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA7E00A3184402B20089FA62;
+			productRefGroup = EA7E00AD184402B20089FA62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA7E00AB184402B20089FA62 /* TVCastLibSampler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA7E00AA184402B20089FA62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848384991EF3F46F00973546 /* Settings.bundle in Resources */,
+				8483848B1EF3F3D900973546 /* icon_15111@2x.png in Resources */,
+				848384911EF3F3F000973546 /* icon_12676@2x.png in Resources */,
+				8483846C1EF3F30700973546 /* TVCastLib in Resources */,
+				8483848A1EF3F3D900973546 /* icon_15111.png in Resources */,
+				848384951EF3F43700973546 /* InfoPlist.strings in Resources */,
+				8483847F1EF3F38900973546 /* icon_15307@2x.png in Resources */,
+				848384841EF3F3B000973546 /* icon_17183@2x.png in Resources */,
+				848384A11EF3F56300973546 /* TVCastLibSampler-Info.plist in Resources */,
+				848384831EF3F3B000973546 /* icon_17183.png in Resources */,
+				848384731EF3F35600973546 /* icon_17114@2x.png in Resources */,
+				848384781EF3F36D00973546 /* icon_3330.png in Resources */,
+				8483849D1EF3F4CB00973546 /* Images.xcassets in Resources */,
+				848384721EF3F35600973546 /* icon_17114.png in Resources */,
+				8483849B1EF3F49200973546 /* MainStoryboard.storyboard in Resources */,
+				8483847E1EF3F38900973546 /* icon_15307.png in Resources */,
+				848384791EF3F36D00973546 /* icon_3330@2x.png in Resources */,
+				848384901EF3F3F000973546 /* icon_12676.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F0347D21A83EEE600825C36 /* Save git info */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Save git info";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n\ngit_version=$(git log -1 --format=\"%h\")\ngit_branch=$(git symbolic-ref --short -q HEAD)\ngit_tag=$(git describe --tags --exact-match 2>/dev/null)\n\nbuild_time=$(date)\ngit_branch_or_tag=\"${git_branch:-${git_tag}}\"\n\ninfo_plist=\"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_FOLDER_PATH}/Info.plist\"\n/usr/libexec/PlistBuddy -c \"Set :GitInfo '${git_branch_or_tag}-${git_version}'\" \"${info_plist}\"";
+		};
+		EA049F0118B29BB7000A1760 /* Bump version for Release builds */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bump version for Release builds";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ $CONFIGURATION == Release ]; then\n    buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\n    buildNumber=$(($buildNumber + 1))\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"\n    /usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $buildNumber\" \"$INFOPLIST_FILE\"\nelse\n    echo $CONFIGURATION \" build - Not bumping build number.\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA7E00A8184402B20089FA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848384681EF3F2B800973546 /* AppDelegate.m in Sources */,
+				848384591EF3F20D00973546 /* BaseViewController.m in Sources */,
+				848384651EF3F26100973546 /* SamplerViewController.m in Sources */,
+				8483845B1EF3F20D00973546 /* ControlViewController.m in Sources */,
+				8483845E1EF3F20D00973546 /* TVViewController.m in Sources */,
+				8483845C1EF3F20D00973546 /* MediaViewController.m in Sources */,
+				848384581EF3F20D00973546 /* AppsViewController.m in Sources */,
+				8483845A1EF3F20D00973546 /* ControlTouchpadView.m in Sources */,
+				8483845D1EF3F20D00973546 /* SystemViewController.m in Sources */,
+				848384641EF3F26100973546 /* SamplerNavigationViewController.m in Sources */,
+				8483846A1EF3F2D000973546 /* main.m in Sources */,
+				8483845F1EF3F20D00973546 /* WebAppViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		848384931EF3F43700973546 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848384941EF3F43700973546 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA7E00DC184402B20089FA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hamedghp@gmail.com (UW22NT57R8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				PROVISIONING_PROFILE = "cc85fe69-eedc-455d-93c9-ff1928b0f47e";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA7E00DD184402B20089FA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: hamedghp@gmail.com (UW22NT57R8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_LDFLAGS = "";
+				PROVISIONING_PROFILE = "cc85fe69-eedc-455d-93c9-ff1928b0f47e";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA7E00DF184402B20089FA62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9PYS5F5SS5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVCastLibSampler/TVCastLib",
+					"$(PROJECT_DIR)/TVCastLibSampler/TVCastLib/third_party_framework",
+					"$(PROJECT_DIR)/TVCastLibSampler/TVCastLib/GoogleCastSDK-2.7.1-Release",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVCastLibSampler/TVCastLibSampler-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "TVCastLibSampler/TVCastLibSampler-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVCastLibSampler/TVCastLib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TVCastLib.Sampler;
+				PRODUCT_NAME = TVCastLibSampler;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/TVCastLibSampler/TVCastLib/include/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA7E00E0184402B20089FA62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9PYS5F5SS5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVCastLibSampler/TVCastLib",
+					"$(PROJECT_DIR)/TVCastLibSampler/TVCastLib/third_party_framework",
+					"$(PROJECT_DIR)/TVCastLibSampler/TVCastLib/GoogleCastSDK-2.7.1-Release",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TVCastLibSampler/TVCastLibSampler-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "TVCastLibSampler/TVCastLibSampler-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TVCastLibSampler/TVCastLib",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+					"-all_load",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TVCastLib.Sampler;
+				PRODUCT_NAME = TVCastLibSampler;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/TVCastLibSampler/TVCastLib/include/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA7E00A7184402B20089FA62 /* Build configuration list for PBXProject "TVCastLibSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7E00DC184402B20089FA62 /* Debug */,
+				EA7E00DD184402B20089FA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA7E00DE184402B20089FA62 /* Build configuration list for PBXNativeTarget "TVCastLibSampler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA7E00DF184402B20089FA62 /* Debug */,
+				EA7E00E0184402B20089FA62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA7E00A4184402B20089FA62 /* Project object */;
+}
